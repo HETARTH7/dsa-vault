@@ -53,3 +53,11 @@ print(solution.minWindow("ab", "a"))
 
 
 # https://leetcode.com/problems/minimum-window-substring/
+
+# Brute Force:
+# Time- O(m²(m + n))
+# Space- O(m + n)
+#
+# Sliding Window (Variable):
+# Time- O(m + n)
+# Space- O(n)
